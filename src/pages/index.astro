@@ -1,17 +1,55 @@
 ---
-
+const siteTitle = "151 Card House";
+const siteTagline = "A Pre-2000 Pokémon Card Archive";
 ---
 
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{siteTitle}</title>
+    <meta
+      name="description"
+      content="A comprehensive archive of pre-2000 Pokémon cards, including Japanese and English sets, variants, and historical context."
+    />
+  </head>
+
+  <body>
+    <main style="max-width: 800px; margin: 3rem auto; padding: 0 1rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;">
+      
+      <h1>{siteTitle}</h1>
+      <h2 style="font-weight: normal; color: #555;">{siteTagline}</h2>
+
+      <p>
+        <strong>151 Card House</strong> is a reference archive dedicated to Pokémon trading cards
+        released prior to the year 2000. The goal of this site is accuracy, completeness,
+        and historical preservation — not hype.
+      </p>
+
+      <p>
+        This project focuses on early Pokémon card history, including:
+      </p>
+
+      <ul>
+        <li>Japanese-exclusive sets and vending series</li>
+        <li>English and Japanese pre-WotC and WotC-era cards</li>
+        <li>Card variants, alternate backs, and print differences</li>
+        <li>Set structure and historical context</li>
+      </ul>
+
+      <p>
+        Over time, this archive will expand to include individual set pages,
+        card-level entries, images, and sourcing notes.
+      </p>
+
+      <hr />
+
+      <p style="font-size: 0.9rem; color: #666;">
+        Built as an independent research project. Not affiliated with Nintendo,
+        Creatures, GAME FREAK, or The Pokémon Company.
+      </p>
+
+    </main>
+  </body>
 </html>
